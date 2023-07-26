@@ -1,0 +1,38 @@
+.ball{
+    border: 5px solid red;
+    height: 200px;
+    width: 200px;
+   background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    animation:bounce 3s  infinite;
+    left: 30px;
+    top: 0px;
+}
+body{
+    background-color: green;
+
+}
+@keyframes bounce{
+    0%
+    {
+        top: 0px;
+        left: 250px;
+        bottom: 200px;
+    }
+    25%
+    {
+        top: 300px;
+        bottom: 300px;
+
+    }
+    50%{
+        top: 300PX;
+        left: 500px;
+
+    }
+    100%{
+        bottom: 300px;
+    }
+}
